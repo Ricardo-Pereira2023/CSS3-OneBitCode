@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+#texto1 {
+  font-family: Ephesis, cursive;
+  font-size: 50px;
+}
+
+
+p{
+  font-family:Arial, Helvetica, sans-serif; /*Arial e Helvetica são da family-name e a sans-serif é da generic-family*/
+  /*Dica: Procurar sempre usar 3 fontes. 2 tradicionais e 1 genérica*/
+  font-size: 30px;  /*Tamanho da fonte*/
+  font-weight: 500; /*Peso da fonte (bold ou 600 deixa a fonte em negrito)*/
+  line-height: 1.5; /*Altura da linha do texto*/
+  margin: auto 25px 0px 25px; /*margem do texto.(Top, Right, Bottom, Left)*/
+}
+
+h1{
+  text-align: center; /*Alinhar o texto (no centro)*/
+  text-decoration: underline; /*Estiliza o texto*/
+  margin: auto auto auto auto; /*margem do texto.(Top, Right, Bottom, Left)*/
+  width: 250px; /*Largura do texto*/
+  border: 2px solid;  /*Borda do texto*/
+  padding: 10px;  /*Preenchimento da borda*/
+}

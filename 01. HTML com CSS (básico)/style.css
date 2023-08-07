@@ -1,0 +1,35 @@
+h1 {
+  font-size: 60px;  /*Tamanho da fonte*/
+  color: #e50da2; /*Cor da fonte*/
+  border-color: blueviolet; /*Cor da borda*/
+  border-width: 2px;  /*Largura da borda*/
+  border-style: solid; /*Estilo da borda*/
+  /* border: 2px solid blueviolet; Executa os 3 comandos 
+  acima em uma linha só*/
+}
+
+h4 {
+  font-size: 30px;  /*Tamanho da fonte*/
+  color: gray;  /*Cor da fonte*/
+}
+
+body {
+  background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Desktop_5ebdeb0c6c.webp'); /*Imagem de fundo*/
+  background-repeat: no-repeat; /*Pra não repetir a imagem na página*/
+  background-size: cover; /*Tamanho da imagem de fundo*/ 
+} 
+
+.moon { /*Criei uma classe chamada "moon" e a coloquei nos três primeiros itens da tabela. Somente esses itens irão ser estilizados. Ela pode
+servir pra qualquer outra tag dentro do body. Ex:. H1 ou H4.*/
+  color: red;
+  font-size: 30px;
+}
+
+#green-color{ /* O (#) representa o ID e o (.) representa uma classe. O ID serve pra alterar apenas um item em específico enquanto a CLASSE pode alterar diversos itens. */
+  color: green;
+  font-size: 25px;
+}
+
+li {
+  color:aquamarine;
+}

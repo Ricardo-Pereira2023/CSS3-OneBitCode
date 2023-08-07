@@ -1,0 +1,50 @@
+li {
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+/*Seletor Estrela - seleciona todos os elementos do documento e aplica o estilo.*/
+/* * {
+  border: 2px solid blue;
+} */
+/*----------------------------------------------------------------------*/
+
+/*Seletor descendente - aplica estilo a todos os links que estejam dentro de um li.*/
+ /* li a {
+  color: red;
+ } */
+/*----------------------------------------------------------------------*/
+
+ /*Seletor descendente direto (filho) - Todo "a" que seja filho (pertencer) do li receberá o estilo. */
+/* li > a {`
+  color:red;
+} */
+/*----------------------------------------------------------------------*/
+
+/*Seletor adjascente - A borda será colocada entre o h1 e o h2. Se houver outro elemento entre o h1 e o h2 a borda não funcionará.*/
+h1 + h2{
+  border: 4px dashed;
+}
+/*----------------------------------------------------------------------*/
+
+/*Seletor de atributo - O estilo será aplicado no elemento que conter o atributo.*/
+a[href='/recibo'] {
+  color: orange;
+}
+/*----------------------------------------------------------------------*/
+
+/*Pseudo-classes - Permite selecionar os elementos de uma forma um pouco mais específica. Nesse caso o segundo elemento de cada (li) receberá o estilo. pode usar a nomeclatura "EVEN" ou "ODD" dentro dos parênteses pra determinar parâmetro.*/
+li:nth-of-type(2) {
+  color:blueviolet;
+} 
+/*----------------------------------------------------------------------*/
+
+
+

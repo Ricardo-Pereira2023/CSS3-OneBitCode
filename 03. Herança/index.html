@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Planetas</title>
+    <style> 
+      /* div ul li{
+        color: blue;
+        font-size: 30px;
+      } 
+      div h1 {
+        color: green;
+        font-size: 45px;
+      } */
+
+      div {
+        border: 2px solid;
+      }
+      div ul{
+        border: inherit
+      }
+    
+    </style>  <!-- Será aplicado o estilo inline na ul e li, ficando de fora o h1.
+    A div (pai) passa como herança as propriedades para o filho (ul e li). Essa propriedade tem especificidade maior do que a Div h1 e sobrescreverá o estilo.
+    No caso da div h1 somente o h1 receberá as propriedades como herança e tem uma especificidade menor.-->
+    
+    <!--Será aplicado a borda em todos os elementos na div. A div ul receberá as propriedades (borda) como herança (inherit) do pai.-->
+  </head> 
+  <body>  
+    <div>
+      <h1>Planetas</h1>
+      <ul>
+        <li>Terra</li>
+        <li>Marte</li>
+        <li>Júpiter</li>
+      </ul>
+    </div>
+  </body>
+</html>
